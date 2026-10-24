@@ -37,8 +37,8 @@ const Paquete = sequelize.define('cliente', {
         allowNull: false
     }
 }, {
-    tableName: 'paquete',
+    tableName: 'proveedor',
     timestamps: false
 });
 
-module.exports = paquete;
+module.exports = proveedor;
